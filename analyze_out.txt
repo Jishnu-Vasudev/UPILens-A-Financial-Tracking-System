@@ -1,0 +1,71 @@
+﻿Analyzing UPILens...                                            
+
+warning - The value of the local variable 'isDark' isn't used - lib\main.dart:75:11 - unused_local_variable
+   info - Use 'const' for final variables initialized to a constant value - lib\main.dart:76:5 - prefer_const_declarations
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:87:18 - prefer_const_constructors
+  error - The returned type 'Future<List<dynamic>>' isn't returnable from a 'Future<List<Transaction>>' function, as required by the closure's context - lib\providers\providers.dart:37:10 - return_of_invalid_type_from_closure
+warning - The value of the local variable 'rule' isn't used - lib\providers\providers.dart:103:9 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard\dashboard_screen.dart:79:48 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard\dashboard_screen.dart:96:48 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard\dashboard_screen.dart:141:52 - deprecated_member_use
+warning - Unused import: '../../models/transaction.dart' - lib\screens\insights\insights_screen.dart:7:8 - unused_import
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:22:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:34:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:47:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:63:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:78:41 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:80:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:204:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:204:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:205:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:205:53 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:206:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:206:51 - prefer_const_constructors
+  error - Target of URI doesn't exist: '../services/llm_service.dart' - lib\screens\onboarding\onboarding_screen.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../services/sms_service.dart' - lib\screens\onboarding\onboarding_screen.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../services/rule_classifier.dart' - lib\screens\onboarding\onboarding_screen.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../services/transaction_processor.dart' - lib\screens\onboarding\onboarding_screen.dart:8:8 - uri_does_not_exist
+  error - The method 'LlmService' isn't defined for the type '_OnboardingScreenState' - lib\screens\onboarding\onboarding_screen.dart:45:22 - undefined_method
+  error - The method 'RuleClassifier' isn't defined for the type '_OnboardingScreenState' - lib\screens\onboarding\onboarding_screen.dart:52:11 - undefined_method
+  error - The method 'SmsService' isn't defined for the type '_OnboardingScreenState' - lib\screens\onboarding\onboarding_screen.dart:54:27 - undefined_method
+  error - The method 'TransactionProcessor' isn't defined for the type '_OnboardingScreenState' - lib\screens\onboarding\onboarding_screen.dart:55:11 - undefined_method
+   info - Use 'const' with the constructor to improve performance - lib\screens\onboarding\onboarding_screen.dart:201:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\onboarding\onboarding_screen.dart:201:58 - prefer_const_constructors
+warning - Unused import: '../../services/rule_classifier.dart' - lib\screens\settings\settings_screen.dart:8:8 - unused_import
+   info - Statements in a for should be enclosed in a block - lib\screens\settings\settings_screen.dart:94:27 - curly_braces_in_flow_control_structures
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:123:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:130:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:190:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:210:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:219:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\transactions\transactions_screen.dart:25:11 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\transactions\transactions_screen.dart:152:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\transactions\transactions_screen.dart:160:31 - deprecated_member_use
+  error - The name 'Transaction' is defined in the libraries 'package:sqflite_common/sqlite_api.dart (via package:sqflite/sqflite.dart)' and 'package:upilens/models/transaction.dart' - lib\services\database_helper.dart:55:34 - ambiguous_import
+  error - The name 'Transaction' is defined in the libraries 'package:sqflite_common/sqlite_api.dart (via package:sqflite/sqflite.dart)' and 'package:upilens/models/transaction.dart' - lib\services\database_helper.dart:65:15 - ambiguous_import
+  error - The name 'Transaction' is defined in the libraries 'package:sqflite_common/sqlite_api.dart (via package:sqflite/sqflite.dart)' and 'package:upilens/models/transaction.dart' - lib\services\database_helper.dart:68:21 - ambiguous_import
+   info - Statements in a for should be enclosed in a block - lib\services\rule_classifier.dart:86:26 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\services\rule_classifier.dart:95:40 - curly_braces_in_flow_control_structures
+warning - Unused import: 'dart:math' - lib\services\sms_parser.dart:1:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\sms_service.dart:22:7 - avoid_print
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
+flutter : 49 issues 
+found. (ran in 42.0s)
+At line:1 char:1
++ flutter analyze 
+--no-fatal-infos 2>&1 
+| Out-File -Encoding 
+utf8 C:\Us ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (49 issues fou   
+ nd. (ran in 42.0s)    
+:String) [], Remot    
+eException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 

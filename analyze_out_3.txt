@@ -1,0 +1,54 @@
+﻿Analyzing UPILens...                                            
+
+   info - Use 'const' for final variables initialized to a constant value - lib\main.dart:75:5 - prefer_const_declarations
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:86:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard\dashboard_screen.dart:79:48 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard\dashboard_screen.dart:96:48 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard\dashboard_screen.dart:141:52 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:21:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:33:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:46:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:62:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:77:41 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:79:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:203:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:203:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:204:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:204:53 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:205:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\insights\insights_screen.dart:205:51 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\onboarding\onboarding_screen.dart:201:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\onboarding\onboarding_screen.dart:201:58 - prefer_const_constructors
+   info - Statements in a for should be enclosed in a block - lib\screens\settings\settings_screen.dart:93:27 - curly_braces_in_flow_control_structures
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:122:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:129:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:189:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:209:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:218:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\transactions\transactions_screen.dart:25:11 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\transactions\transactions_screen.dart:152:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\transactions\transactions_screen.dart:160:31 - deprecated_member_use
+   info - Statements in a for should be enclosed in a block - lib\services\rule_classifier.dart:86:26 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\services\rule_classifier.dart:95:40 - curly_braces_in_flow_control_structures
+   info - Don't invoke 'print' in production code - lib\services\sms_service.dart:22:7 - avoid_print
+warning - Unused import: 'package:flutter/material.dart' - test\widget_test.dart:1:8 - unused_import
+
+flutter : 32 issues 
+found. (ran in 15.6s)
+At line:1 char:1
++ flutter analyze 
+--no-fatal-infos 2>&1 
+| Out-File -Encoding 
+utf8 C:\Us ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (32 issues fou   
+ nd. (ran in 15.6s)    
+:String) [], Remot    
+eException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
